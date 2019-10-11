@@ -16,7 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
-
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </head>
@@ -32,6 +32,7 @@
             height="50px"
         /></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="/cregister">Customer Register</a></li>
           <li><a href="/register">Shopkeeper Register</a></li>
           <li><a href="/slogin">Shopkeeper Login</a></li>
           <li><a href="/">Customer Login</a></li>
@@ -42,7 +43,7 @@
 
     <div class="row container">
       <h5>Customer Register</h5>
-      <form class="col s12">
+      <form class="col s12" action="">
         <div class="row">
           <div class="input-field col s6">
             <input
@@ -69,6 +70,39 @@
               name="phone_no"
             />
             <label for="input_text">Contact</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6">
+            <input
+              id="input_text"
+              type="text"
+              data-length="10"
+              name="pincode"
+            />
+            <label for="input_text">Pincode</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6">
+            <input
+              id="input_text"
+              type="text"
+              data-length="10"
+              name="work_experience"
+            />
+            <label for="input_text">Work Experience</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6">
+            <input
+              id="input_text"
+              type="text"
+              data-length="10"
+              name="industry"
+            />
+            <label for="input_text">Industry</label>
           </div>
         </div>
         <div class="row">
