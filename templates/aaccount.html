@@ -24,7 +24,7 @@
   <body>
     <nav>
       <div class="nav-wrapper" style="background-color:rgb(144, 144, 206);">
-        <a href="/cdash" class="brand-logo"
+        <a href="/adash" class="brand-logo"
           ><img
             src="{{url_for('static',filename='images/g.png')}}"
             alt=""
@@ -33,30 +33,28 @@
             style="padding: 10px;"
         /></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li class="active"><a href="/caccount">Account</a></li>
-          <li><a href="/cshop">Shop</a></li>
-          <li><a href="/cgift">Gift</a></li>
-          <li><a href="/logout">logout</a></li>
-        </ul>
+                <li class="active"><a href="/aaccount">Account</a></li>
+                <li><a href="/assigncoupons">Assign Coupon</a></li>
+              </ul>
       </div>
     </nav>
     <br /><br />
     <div class="row container">
         <div class="col s4"></div>
-            <h5>Customer Details</h5>
+            <h5>Store Details</h5>
             <form class="col s12">
                     
                     <div class="row">
-                            <div class="col s4"><img style="border-radius:50%" src="{{url_for('static',filename='images/pr.jpg')}}"style="" alt=""  height="150px" width="150px"  ></div>
+                            <div class="col s4"><img style="border-radius:50%" src="{{url_for('static',filename='images/111.png')}}"style="" alt=""  height="150px" width="150px"  ></div>
                             <div class="input-field col s6">
                               <input
                                 id="input_text"
                                 type="text"
                                 data-length="10"
-                                name="customer_id"
+                                name="brand_id"
                                 readonly
                               />
-                              <label for="input_text">Customer Id</label>
+                              <label for="input_text">Brand Id</label>
                             </div>
                           </div>
               <div class="row">
@@ -66,10 +64,10 @@
                     id="input_text"
                     type="text"
                     data-length="10"
-                    name="customer_name"
+                    name="owner_name"
                     readonly
                   />
-                  <label for="input_text">Name</label>
+                  <label for="input_text">Owner Name</label>
                 </div>
               </div>
       
@@ -93,10 +91,10 @@
                         id="input_text"
                         type="text"
                         data-length="10"
-                        name="shops"
+                        name="brand_name"
                         readonly
                       />
-                      <label for="input_text">Shops</label>
+                      <label for="input_text">Brand Name</label>
                     </div>
                   </div>
                   <div class="row">
@@ -106,10 +104,10 @@
                             id="input_text"
                             type="text"
                             data-length="10"
-                            name="total_saved"
+                            name="total_customers"
                             readonly
                           />
-                          <label for="input_text">Total Saved</label>
+                          <label for="input_text">Total Customers</label>
                         </div>
                       </div>
                       <div class="row">
@@ -119,9 +117,9 @@
                                 id="input_text"
                                 type="text"
                                 data-length="10"
-                                name="total_spend" readonly
+                                name="total_sales" readonly
                               />
-                              <label for="input_text">Total Spending</label>
+                              <label for="input_text">Total Sales</label>
                             </div>
                           </div>
                           

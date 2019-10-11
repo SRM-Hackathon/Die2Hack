@@ -41,5 +41,11 @@ def logout():
 @app.route('/adash')
 def adash():
     return render_template('adash.html')
+@app.route('/aaccount')
+def aaccount():
+    return render_template('aaccount.html')
 
+@app.route('/assigncoupons')
+def assigncoupons():
+    return render_template('assigncoupons.html')
 app.run(debug=True)
