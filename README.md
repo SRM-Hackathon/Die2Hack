@@ -67,6 +67,26 @@ shop and the basic info will be taken from the customer’s login, then
 using that data we will assign a specific cluster to the customer and
 the customer will get discounts based on the cluster assigned.
 
+## Business Model
+
+● According to customers shopping from a shop from our
+database we can monetize it.<br>
+● Each shop will have to pay a dynamic fees for each
+customer.<br>
+● There will be benefits like to get our service for 1 year or
+so to avail a paying fees reduce by some percent each
+customer, If a sum of amount is paid in advance.
+
+## Future Buisness Model
+
+After the platform is deployed for a few stored for a considered amount of time, we would have collected a <u>significant amount of dataset.</u>
+
+That dataset will contain the information like <u>shopping category and the price range of the products each customer buys</u>.
+
+That dataset can be used by an <u>upcoming or new business</u> to boost it's sales.
+
+So we are not just <u>earning by the usage of the portal</u> in general, even <u>data going through our portal</u> will help in <u>generating royalty.</u>
+
 ## Social Values
 
 ● Customers can keep track of their purchase history in
@@ -78,15 +98,9 @@ valuable customers.<br>
 ● The whole application will work as a data centred flow
 model in all together.
 
-## Business Model
+## DataFlow
 
-● According to customers shopping from a shop from our
-database we can monetize it.<br>
-● Each shop will have to pay a dynamic fees for each
-customer.<br>
-● There will be benefits like to get our service for 1 year or
-so to avail a paying fees reduce by some percent each
-customer, If a sum of amount is paid in advance.
+<p align="center" ><img src="https://github.com/SRM-Hackathon/Die2Hack/blob/master/static/dataflow.png" height="200px" ></p>
 
 ## Tech Stack
 
