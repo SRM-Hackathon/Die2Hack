@@ -100,7 +100,7 @@ model in all together.
 
 ## DataFlow
 
-<p align="center" ><img src="https://github.com/SRM-Hackathon/Die2Hack/blob/master/static/dataflow.png" height="200px" ></p>
+<p align="center" ><img src="https://github.com/SRM-Hackathon/Die2Hack/blob/master/static/images/dataflow.png" height="200px" ></p>
 
 ## Tech Stack
 
